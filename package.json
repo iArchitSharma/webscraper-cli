@@ -1,0 +1,24 @@
+{
+  "name": "webscraper-cli",
+  "version": "1.0.0",
+  "description": "A CLI application that takes a URL and a CSS selector arguments and prints the text content of the element that matches the selector.",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CLI",
+    "Web",
+    "Scrapper"
+  ],
+  "author": "Archit Sharma",
+  "license": "ISC",
+  "bin": {
+    "webscraper-cli": "./bin/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "cheerio": "^1.0.0-rc.12",
+    "yargs": "^17.7.2"
+  }
+}
